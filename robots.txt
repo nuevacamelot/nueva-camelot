@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nuevacamelot.com.ar/sitemap.xml

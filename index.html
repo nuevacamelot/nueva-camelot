@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nueva Camelot | Anime, figuras y coleccionables</title>
+  <meta name="description" content="Nueva Camelot: figuras de anime, Dragon Ball, cómics, juguetes retro y objetos para coleccionar. Descubrí nuestras novedades en Instagram.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nuevacamelot.com.ar/">
+  <meta name="theme-color" content="#101014">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Nueva Camelot | Coleccionables, anime y cultura retro">
+  <meta property="og:description" content="Un lugar para encontrar tus universos favoritos. Figuras, anime, cómics y juguetes retro.">
+  <meta property="og:url" content="https://nuevacamelot.com.ar/">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1715444531899-6811ab94c693?auto=format&fit=crop&w=1200&q=80">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <style>
+    :root {
+      --bg:#101014; --panel:#19191f; --panel2:#202027; --text:#f7f1e8;
+      --muted:#b9b1a7; --orange:#ff8a24; --gold:#f7c65c; --line:#343039;
+      --max:1180px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+    a{color:inherit}
+    .wrap{width:min(var(--max),calc(100% - 40px));margin:auto}
+    .topbar{border-bottom:1px solid #ffffff12;background:#101014eF;position:relative;z-index:5}
+    .nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{display:flex;align-items:center;gap:12px;text-decoration:none;font-weight:900;letter-spacing:.11em;font-size:15px}
+    .brand-mark{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;border:1px solid var(--gold);color:var(--gold);font-family:Georgia,serif;font-size:22px;box-shadow:0 0 24px #ff9a2a25}
+    .navlinks{display:flex;align-items:center;gap:28px;color:#d3cbc1;font-size:13px}
+    .navlinks a{text-decoration:none;transition:color .2s}.navlinks a:hover{color:var(--gold)}
+    .nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;border-radius:999px;font-weight:800;letter-spacing:.04em;transition:transform .2s,background .2s}
+    .nav-cta{padding:12px 18px;background:var(--orange);color:#1b1209;font-size:12px}
+    .nav-cta:hover,.btn:hover{transform:translateY(-2px);background:var(--gold)}
+    .hero{position:relative;isolation:isolate;min-height:660px;display:flex;align-items:center;overflow:hidden;background:#141319}
+    .hero:before{content:"";position:absolute;inset:0;z-index:-2;background:
+      linear-gradient(90deg,rgba(12,12,17,.97) 0%,rgba(12,12,17,.88) 38%,rgba(12,12,17,.28) 100%),
+      url("https://images.unsplash.com/photo-1715444531899-6811ab94c693?auto=format&fit=crop&w=2000&q=85") center 42%/cover no-repeat}
+    .hero:after{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(circle at 82% 50%,#ff9a2a2a,transparent 34%),linear-gradient(0deg,var(--bg),transparent 23%)}
+    .hero-content{max-width:650px;padding:92px 0 110px}
+    .eyebrow{display:flex;align-items:center;gap:12px;color:var(--gold);font-size:11px;letter-spacing:.24em;text-transform:uppercase;font-weight:900}
+    .eyebrow:before{content:"";width:34px;height:1px;background:var(--orange)}
+    h1{font-family:Georgia,'Times New Roman',serif;font-size:clamp(48px,8vw,92px);line-height:.94;letter-spacing:.015em;margin:22px 0 24px;font-weight:700}
+    h1 span{color:var(--gold);display:block}
+    .hero p{font-size:clamp(16px,2vw,19px);line-height:1.75;color:#ddd5ca;max-width:520px;margin:0 0 32px}
+    .actions{display:flex;gap:13px;flex-wrap:wrap}
+    .btn{padding:16px 23px;background:var(--orange);color:#1a120b;font-size:12px}
+    .btn.secondary{background:#ffffff0d;color:var(--text);border:1px solid #ffffff55;backdrop-filter:blur(8px)}
+    .btn.secondary:hover{background:#ffffff1b}
+    .hero-note{margin-top:35px;color:#bdb4a8;font-size:11px;letter-spacing:.16em;text-transform:uppercase}
+    .hero-note b{color:var(--gold);font-weight:700}
+    .section{padding:92px 0}
+    .section-head{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:34px}
+    .kicker{color:var(--orange);font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:900}
+    h2{font-family:Georgia,'Times New Roman',serif;font-size:clamp(34px,5vw,54px);margin:10px 0 0;line-height:1.04}
+    .section-head p{max-width:420px;color:var(--muted);line-height:1.7;margin:0;font-size:14px}
+    .feature-grid{display:grid;grid-template-columns:1.18fr .82fr;gap:18px}
+    .feature{min-height:360px;position:relative;overflow:hidden;border-radius:18px;background:var(--panel);border:1px solid var(--line);isolation:isolate}
+    .feature:before{content:"";position:absolute;inset:0;z-index:-2;background-size:cover;background-position:center;transition:transform .6s}
+    .feature:hover:before{transform:scale(1.045)}
+    .feature.dragon:before{background-image:linear-gradient(0deg,#100e12 0%,#100e1250 58%,transparent),url("https://images.unsplash.com/photo-1769479027867-817973e429af?auto=format&fit=crop&w=1400&q=85")}
+    .feature.figures:before{background-image:linear-gradient(0deg,#100e12 0%,#100e1250 58%,transparent),url("https://images.unsplash.com/photo-1715444531899-6811ab94c693?auto=format&fit=crop&w=1200&q=85")}
+    .feature-copy{position:absolute;left:28px;right:28px;bottom:27px}
+    .feature-copy small{color:var(--gold);font-size:10px;letter-spacing:.2em;text-transform:uppercase;font-weight:900}
+    .feature-copy h3{font:700 clamp(25px,3vw,38px)/1.05 Georgia,serif;margin:9px 0}
+    .feature-copy p{margin:0;color:#d1c8bd;font-size:13px;line-height:1.6;max-width:430px}
+    .orb-row{position:absolute;right:26px;top:24px;display:flex;gap:7px;transform:rotate(-12deg)}
+    .orb{width:31px;height:31px;border-radius:50%;position:relative;background:radial-gradient(circle at 30% 25%,#fff6c2 0 5%,#ffdb65 10%,#ff9c19 47%,#bc4c0c 100%);box-shadow:0 5px 14px #0008,inset -4px -5px 8px #a83d19aa}
+    .orb:after{content:"";position:absolute;width:7px;height:4px;border-radius:50%;background:#fff8d5;top:7px;left:8px;transform:rotate(-35deg)}
+    .orb:before{content:"★";position:absolute;inset:0;display:grid;place-items:center;color:#a92516;font-size:12px;text-shadow:0 1px #ffdf83}
+    .categories{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:18px}
+    .cat{padding:24px 21px;background:linear-gradient(145deg,#202027,#17171d);border:1px solid var(--line);border-radius:14px;min-height:145px}
+    .cat .num{color:var(--orange);font:italic 14px Georgia,serif}
+    .cat h3{font:700 21px Georgia,serif;margin:13px 0 8px}
+    .cat p{color:var(--muted);font-size:12px;line-height:1.55;margin:0}
+    .banner{padding:0 0 90px}
+    .banner-inner{border:1px solid #63472b;border-radius:20px;padding:44px 48px;background:radial-gradient(ellipse at 85% 40%,#a64e1b55,transparent 35%),linear-gradient(110deg,#29201b,#19171a 70%);display:flex;justify-content:space-between;align-items:center;gap:28px;overflow:hidden}
+    .banner h2{font-size:clamp(30px,4vw,43px);max-width:620px}
+    .banner p{color:#c7bdb1;line-height:1.7;font-size:14px;max-width:580px;margin:14px 0 0}
+    .banner-orbs{display:flex;gap:8px;flex-shrink:0;filter:drop-shadow(0 10px 20px #0008)}
+    .banner-orbs .orb{width:42px;height:42px}
+    footer{border-top:1px solid #ffffff17;padding:28px 0 36px;color:#9b938a;font-size:11px}
+    .foot{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+    .foot strong{color:#e8dfd3;letter-spacing:.15em}
+    .credits{margin-top:14px;color:#766f68;font-size:10px;line-height:1.6}
+    .credits a{color:#a89d90}
+    @media(max-width:850px){.navlinks{gap:16px}.hero{min-height:600px}.feature-grid{grid-template-columns:1fr 1fr}.categories{grid-template-columns:repeat(2,1fr)}.banner-inner{padding:34px}}
+    @media(max-width:620px){
+      .wrap{width:min(var(--max),calc(100% - 30px))}.nav{height:66px}.navlinks a:not(.nav-cta){display:none}
+      .nav-cta{padding:11px 14px;font-size:10px}.brand{font-size:12px;letter-spacing:.08em}.brand-mark{width:33px;height:33px}
+      .hero{min-height:620px}.hero:before{background-position:58% center;background-image:linear-gradient(90deg,rgba(12,12,17,.93),rgba(12,12,17,.55)),url("https://images.unsplash.com/photo-1715444531899-6811ab94c693?auto=format&fit=crop&w=1200&q=80")}
+      .hero-content{padding:78px 0 105px}h1{font-size:clamp(47px,14vw,70px)}.hero p{font-size:15px}
+      .section{padding:68px 0}.section-head{display:block}.section-head p{margin-top:16px}
+      .feature-grid{grid-template-columns:1fr}.feature{min-height:330px}.categories{grid-template-columns:1fr 1fr;gap:10px}.cat{padding:18px 15px;min-height:135px}
+      .banner{padding-bottom:65px}.banner-inner{display:block;padding:30px 24px}.banner-orbs{margin-top:25px}.banner-orbs .orb{width:34px;height:34px}
+      .foot{display:block}.foot span{display:block;margin-top:9px}
+    }
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap nav">
+      <a class="brand" href="#inicio" aria-label="Nueva Camelot, inicio"><span class="brand-mark">✦</span><span>NUEVA CAMELOT</span></a>
+      <nav class="navlinks" aria-label="Navegación principal">
+        <a href="#universos">Universos</a>
+        <a href="#coleccionismo">Coleccionismo</a>
+        <a class="nav-cta" href="https://www.instagram.com/nueva.camelot/" target="_blank" rel="noopener noreferrer">VER INSTAGRAM ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="wrap">
+        <div class="hero-content">
+          <div class="eyebrow">Anime · Retro · Coleccionables</div>
+          <h1>OBJETOS QUE<br><span>CUENTAN HISTORIAS.</span></h1>
+          <p>Un rincón para fans, nostálgicos y coleccionistas. Figuras, anime, cómics y esos objetos que nos conectan con nuestros universos favoritos.</p>
+          <div class="actions">
+            <a class="btn" href="https://www.instagram.com/nueva.camelot/" target="_blank" rel="noopener noreferrer">DESCUBRÍ LA COLECCIÓN ↗</a>
+            <a class="btn secondary" href="#universos">EXPLORAR</a>
+          </div>
+          <div class="hero-note"><b>BUENOS AIRES</b> · ARGENTINA · CULTURA POP Y COLECCIONISMO</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="universos">
+      <div class="wrap">
+        <div class="section-head">
+          <div><div class="kicker">Entrá a tu universo</div><h2>Hay historias que<br>merecen un lugar.</h2></div>
+          <p>Desde el anime que nos marcó hasta los juguetes que nos llevan directo a otra época. Explorá algunos de los mundos que inspiran a Nueva Camelot.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature dragon">
+            <div class="orb-row" aria-hidden="true"><i class="orb"></i><i class="orb"></i><i class="orb"></i><i class="orb"></i></div>
+            <div class="feature-copy"><small>Un deseo, siete esferas</small><h3>El poder de coleccionar</h3><p>Dragon Ball, figuras y objetos para quienes saben que las grandes aventuras nunca terminan.</p></div>
+          </article>
+          <article class="feature figures">
+            <div class="feature-copy"><small>Personajes inolvidables</small><h3>Figuras de colección</h3><p>Encontrá personajes, sagas y piezas para sumar a tu estantería.</p></div>
+          </article>
+        </div>
+        <div class="categories" id="coleccionismo">
+          <article class="cat"><span class="num">01 /</span><h3>Anime & Manga</h3><p>Universos, personajes y sagas que nos acompañan.</p></article>
+          <article class="cat"><span class="num">02 /</span><h3>Dragon Ball</h3><p>Esferas, figuras y recuerdos de otra dimensión.</p></article>
+          <article class="cat"><span class="num">03 /</span><h3>Retro & Vintage</h3><p>Clásicos, nostalgia y juguetes con historia.</p></article>
+          <article class="cat"><span class="num">04 /</span><h3>Cómics & Más</h3><p>Cultura pop, rarezas y objetos para coleccionar.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner">
+      <div class="wrap">
+        <div class="banner-inner">
+          <div>
+            <div class="kicker">La próxima pieza puede ser tuya</div>
+            <h2>¿Buscás algo para tu colección?</h2>
+            <p>Conocé las novedades, consultá disponibilidad y descubrí los próximos ingresos en nuestro Instagram.</p>
+            <div class="actions" style="margin-top:22px"><a class="btn" href="https://www.instagram.com/nueva.camelot/" target="_blank" rel="noopener noreferrer">HABLEMOS POR INSTAGRAM ↗</a></div>
+          </div>
+          <div class="banner-orbs" aria-hidden="true"><i class="orb"></i><i class="orb"></i><i class="orb"></i><i class="orb"></i><i class="orb"></i><i class="orb"></i><i class="orb"></i></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="foot"><strong>NUEVA CAMELOT</strong><span>Anime · Figuras · Cómics · Cultura retro</span><span>Buenos Aires, Argentina</span></div>
+      <div class="credits">Fotografías ilustrativas: <a href="https://unsplash.com/photos/a-group-of-action-figures-on-display-on-a-table-DfFc6AioLhU" target="_blank" rel="noopener noreferrer">Unsplash — Naruto figure display</a> y <a href="https://unsplash.com/photos/a-large-collection-of-anime-action-figures-displayed-together-XjnQ9FhRHvs" target="_blank" rel="noopener noreferrer">Unsplash — anime figures collection</a>. Las imágenes son de ambientación y no representan necesariamente productos disponibles.</div>
+    </div>
+  </footer>
+</body>
+</html>
